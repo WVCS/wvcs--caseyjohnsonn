@@ -1,33 +1,42 @@
 <html>
 <body>
-  <ul>
+ <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
-</ul>  
+</ul>
   </body>
   
   
   <style>
 
-ul {list-style-type: none;
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-background-color: antiquewhite;
-   overflow: hidden;
-  position: fixed;
-  top: 0;
-width: 100%;
-left: 0;}
-
-li {
-  padding: 20px 60px;
-display: inline;
+  overflow: hidden;
+  background-color: #333;
 }
 
-li a:hover {
-  backfround-color: blue;}
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 </style>
 </html>
