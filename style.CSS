@@ -42,9 +42,9 @@ div.sticky {
   width: 50%; 
   top: 0;
   z-index: -1; 
-  left: 25%
+  left: 25%;
 }
 
 h1 {
- font-size: 50px;
+ font-size: 20px;
 }
