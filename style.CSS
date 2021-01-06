@@ -47,12 +47,13 @@ div.sticky {
 }
 
 div.stuck {
-  position: absolute;
   color: white;
+  position: sticky;
   background-color: grey;
-  border: 5px dotted white;
-  right: 40PX;
-  top: 40PX;
-  height: 100px;
-  width: 200px;
+  border: 5px solid white; 
+  width: 50%; 
+  top: 0;
+  z-index: -1; 
+  left: 25%;
+  font-size: 20px;
 }
