@@ -46,3 +46,11 @@ div.sticky {
  font-size: 20px;
 }
 
+div.stuck {
+  position: absolute;
+  background-color: grey;
+  border: 5px dotted white;
+  right: 20PX;
+  top: 50PX;
+  height: 100px;
+}
