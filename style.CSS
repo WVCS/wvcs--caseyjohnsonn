@@ -47,7 +47,7 @@ div.sticky {
 }
 
 div.stuck {
-  position: center;
+  position: absolute;
   color: white;
   background-color: grey;
   border: 5px dotted white;
