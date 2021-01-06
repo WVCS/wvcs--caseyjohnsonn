@@ -52,7 +52,7 @@ div.stuck {
   background-color: grey;
   border: 5px solid white; 
   width: 50%; 
-  top: 0;
+  top: 500px;
   z-index: -1; 
   left: 25%;
   font-size: 20px;
