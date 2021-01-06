@@ -32,7 +32,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color: white;
- color: black
+ text-color: black
 }
  
 div.sticky {
